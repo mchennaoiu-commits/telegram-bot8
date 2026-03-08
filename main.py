@@ -13,7 +13,7 @@ from multiprocessing import Process
 import threading
 from bs4 import BeautifulSoup
 stopuser = {}
-token = "8631214794:AAE_FT3eYc2BNqF6DhWNWALWA_a0hZ61-Y0" #توكنك هنا
+token = "8631214794:AAFaddS-36TpPtTUUY-CvddCDQuhIFCJdEA" #توكنك هنا
 bot=telebot.TeleBot(token,parse_mode="HTML")
 admin=5168499996 #ايدي الادمن بدون علامات تنصيص
 active_scans = set()
@@ -438,7 +438,7 @@ def start(message):
 			with open('data.json', 'r') as json_file:
 				existing_data = json.load(json_file)
 			characters = string.ascii_uppercase + string.digits
-			pas ='SIMO1ST-'+''.join(random.choices(characters, k=4))+'-'+''.join(random.choices(characters, k=4))+'-'+''.join(random.choices(characters, k=4))
+			pas ='PORFAVOR-'+''.join(random.choices(characters, k=4))+'-'+''.join(random.choices(characters, k=4))+'-'+''.join(random.choices(characters, k=4))
 			current_time = datetime.now()
 			ig = current_time + timedelta(hours=h)
 			plan='𝗩𝗜𝗣'
