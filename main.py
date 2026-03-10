@@ -40,8 +40,7 @@ for handler in logger.handlers:
     handler.setFormatter(CustomFormatter('%(asctime)s - %(levelname)s - %(message)s'))
 
 # ─── Telegram : Configuration Telegram Bot ────────────────────────────────────
-TOKEN = '<TOKEN>'
-CHAT_ID = '<CHAT_ID>'  
+TOKEN = '<TOKEN>'  
 TOPIC_ID = '<ID>'  
 
 # ─── Function: Generate stripe api key ────────────────────────────────────
