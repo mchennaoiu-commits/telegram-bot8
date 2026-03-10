@@ -40,8 +40,8 @@ for handler in logger.handlers:
     handler.setFormatter(CustomFormatter('%(asctime)s - %(levelname)s - %(message)s'))
 
 # ─── Telegram : Configuration Telegram Bot ────────────────────────────────────
-TOKEN = '<TOKEN>'  
-TOPIC_ID = '<ID>'  
+TOKEN = '<7306815535:AAG2OikNtpPQk29z_eSnna7CLIZjq5emAcw>'  
+TOPIC_ID = '<5168499996>'  
 
 # ─── Function: Generate stripe api key ────────────────────────────────────
 def generate_live_stripe_api_key(key_length,key_prefix):
